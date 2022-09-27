@@ -1,0 +1,42 @@
+
+body{
+  background: #0b8d9e;
+}
+
+#btn {
+  width: 150px;
+  height: 150px;
+  background: rgb(255, 255, 255);
+  border-radius: 60%;
+  margin:  30px auto;
+  text-align: center;
+  line-height: 160px;
+  color: rgb(63, 54, 54);
+  font-weight: 1000;
+  font-size: 70px;
+  cursor: pointer;
+  box-shadow: 0 10px 0  rgb(240, 233, 233);
+  user-select: none;
+}
+
+#btn:hover{
+  opacity: 0.9;
+}
+
+#btn:active{
+  box-shadow: 0 5px 0 rgb(240, 233, 233);
+  margin-top: 35px; 
+}
+  
+#a {
+  background: red;
+  width:40px;
+  height:40px;
+ 
+  cursor:pointer;
+  color: rgb(17, 245, 36);
+  text-align:center;
+  line-height:40px;
+  user-select: none;
+
+}  
